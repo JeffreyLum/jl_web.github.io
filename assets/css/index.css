@@ -5,9 +5,16 @@
     width: 15%;
 }
 
+.ROB a:hover{
+    color: aqua
+}
 .xd{
     background-color: rgb(75, 75, 116);
-    width: 10%
+    width: 5.8%
+}
+
+.xd a:hover {
+    color: rgb(255, 0, 0)
 }
 
 body{
@@ -16,3 +23,4 @@ body{
     background-blend-mode: color;
     font-size: 125%
 }
+
