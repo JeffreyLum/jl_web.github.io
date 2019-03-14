@@ -1,0 +1,18 @@
+.ROB{
+    background-color: palevioletred;
+    text-decoration: none;
+    margin-left: 3rem;
+    width: 15%;
+}
+
+.xd{
+    background-color: rgb(75, 75, 116);
+    width: 10%
+}
+
+body{
+    background-color: black;
+    margin: 0%;
+    background-blend-mode: color;
+    font-size: 125%
+}
