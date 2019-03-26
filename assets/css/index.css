@@ -1,16 +1,14 @@
 .ROB{
     background-color: palevioletred;
     text-decoration: none;
-    margin-left: 3rem;
-    width: 15%;
+    margin-left: 0rem;
 }
 
 .ROB a:hover{
     color: aqua
 }
 .xd{
-    background-color: rgb(75, 75, 116);
-    width: 5.8%
+    background-color: rgb(135, 135, 172);
 }
 
 .xd a:hover {
@@ -18,7 +16,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: gray;
     margin: 0%;
     background-blend-mode: color;
     font-size: 125%
