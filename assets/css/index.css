@@ -7,18 +7,52 @@
 .ROB a:hover{
     color: aqua
 }
-.xd{
-    background-color: rgb(135, 135, 172);
-}
-
-.xd a:hover {
-    color: rgb(255, 0, 0)
-}
-
 body{
     background-color: gray;
     margin: 0%;
     background-blend-mode: color;
     font-size: 125%
 }
+
+ul{
+    list-style: none;
+}
+
+.ham_menu{
+    width: 50px;
+    height: 5px;
+    background-color: red;
+    margin: 0.4rem;
+    border-radius: 10px;
+}
+
+.navbar-btn{
+    float: right;
+}
+
+.hidehamburger{
+    visibility: hidden;
+}
+
+.ext-img{
+    background-image: url(/assets/images/exit.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 800px) {
+    .navbar li{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        display: block;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .navbar-btn{
+        margin-top: 5rem;
+    }
+}
+
 
