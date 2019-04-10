@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
-
-@-ms-viewport{
-    width: device-width;
-}
 
 body {
     font-family: 'Nunito Sans', sans-serif !important;
     text-decoration: none;
     margin: 0;
-    background-color: #ecf0f1;
+    background-color: #1da3c5;
 }
 
 /* NAVBAR STARTS */
@@ -18,24 +13,24 @@ body {
     width: 100%;
     position: fixed;
 }
-.namew {
-    font-size: 1rem;
+.name {
+    font-size: 3rem;
     letter-spacing: 5px;
     font-weight: 100;
-    color: rgb(255, 255, 255);
     text-transform: uppercase;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     float: left;
 }
 .name a {
     margin-left: 3rem;
-    color: white;
+    color: rgb(192, 43, 43);
     text-decoration: none;
 }
 .navbar {
     float: right;
     margin-right: 2rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
     display: block !important;
 }
