@@ -1,58 +1,130 @@
-.ROB{
-    background-color: palevioletred;
+about.css
+
+Type
+Style Sheet
+Size
+2 KB (2,016 bytes)
+Storage used
+0 bytesOwned by undefined
+Location
+css
+Owner
+ACM Cal State LA
+Modified
+Mar 6, 2019 by ACM Cal State LA
+Opened
+5:33 PM by me
+Created
+Mar 6, 2019
+No description
+Viewers can download
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+@-ms-viewport{
+    width: device-width;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif !important;
     text-decoration: none;
-    margin-left: 0rem;
+    margin: 0;
+    background-color: #ecf0f1;
 }
 
-.ROB a:hover{
-    color: aqua
+/* NAVBAR STARTS */
+.container {
+    background-color: rgb(29, 29, 29);
+    display: table;
+    width: 100%;
+    position: fixed;
 }
-body{
-    background-color: gray;
-    margin: 0%;
-    background-blend-mode: color;
-    font-size: 125%
+.name {
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-top: 2rem;
+    float: left;
 }
-
-ul{
-    list-style: none;
+.name a {
+    margin-left: 3rem;
+    color: white;
+    text-decoration: none;
 }
-
-.ham_menu{
-    width: 50px;
-    height: 5px;
-    background-color: red;
-    margin: 0.4rem;
-    border-radius: 10px;
-}
-
-.navbar-btn{
+.navbar {
     float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block !important;
 }
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    letter-spacing: 5px;
+    margin-right: 2rem;
+}
+.navbar a:hover {
+    color: #2ecc71 !important;
+    font-weight: bold;
+}
+/* HAMBURGER ICON */
+.navbar-btn{
+    padding-inline-start: 1px !important;
+    float: right;
+    display: none;
+}
+.ham_menu {
+    width: 35px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5rem 0;
+    border-radius: 1px;
+    display: none;
+}
+/* HAMBURGER ICON */
 
+/*Javascript*/
 .hidehamburger{
     visibility: hidden;
 }
-
-.ext-img{
+.exit-img{
     background-image: url(/assets/images/exit.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
 }
+/* NAVBAR ENDS */
 
-@media screen and (min-width: 800px) {
+/* RESPONSIVE LAYER */
+@media screen and (max-width:840px) {
     .navbar li{
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
         display: block;
+    }
+    .ham_menu{
+        display: block !important;
+    }
+    .navbar-btn{
+        display: block;
+        margin-top: -2rem;
     }
     .navbar{
         width: 100%;
     }
-    .navbar-btn{
-        margin-top: 5rem;
+    .full-navbar{
+        display: none;
+    }
+  }
+  
+  @media screen and (min-width:840px) {
+    .full-navbar{
+        display: block !important;
     }
 }
-
-
+/* RESPONSIVE LAYER */
