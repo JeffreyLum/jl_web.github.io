@@ -99,12 +99,15 @@ body {
     .navbar-btn{
         display: block;
         margin-top: -2rem;
+
     }
     .navbar{
         width: 100%;
     }
     .full-navbar{
         display: none;
+        font: 2rem;
+
     }
   }
   
