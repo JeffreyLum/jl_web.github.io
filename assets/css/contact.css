@@ -92,10 +92,10 @@ body {
 @media screen and (max-width:840px) {
     
     .name{
-        font-size: 20px;
+        font-size: 25px;
         margin-left: -30px;
         margin-top: 30px;
-        margin-bottom: -10px;
+        margin-bottom: -20px;
     }
     
     .navbar li{
@@ -110,7 +110,7 @@ body {
     }
     .navbar-btn{
         display: block;
-        margin-top: -3.4rem;
+        margin-top: -2.6rem;
     }
     .navbar{
         font-size: 1rem;
