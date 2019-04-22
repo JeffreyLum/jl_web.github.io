@@ -119,6 +119,11 @@ body {
     .full-navbar{
         display: none;
     }
+    .text{
+        font-size: 20px;
+        margin-top: 10rem;
+        margin-left: 2rem;
+    }
   }
   
   @media screen and (min-width:840px) {
