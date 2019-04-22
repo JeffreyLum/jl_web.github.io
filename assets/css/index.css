@@ -121,7 +121,11 @@ body {
     .full-navbar{
         display: none;
         font: 2rem;
-
+    }
+    .text{
+        font-size: 20px;
+        margin-top: 10rem;
+        margin-left: 2rem;
     }
   }
   
