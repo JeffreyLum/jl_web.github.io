@@ -1,34 +1,41 @@
 
 body {
-    font-family: 'Nunito Sans', sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
     height: 100%;
     width: 100%;
     margin: 0px;
+    margin-top: -10rem;
     text-decoration: none;
-    background-image: url(https://wallpapercave.com/wp/RMdbmli.jpg);
 }
 
-
+#particles-js {
+    height: 100%;
+    margin-top: -10rem;
+    background: #116de6;
+}
 /* NAVBAR STARTS */
-.container {
-    background-color: rgb(29, 29, 29);
-    display: table;
-    width: 100%;
-    position: fixed;
-}
+
 .name {
-    font-size: 3rem;
+    font-size: 5rem;
     letter-spacing: 5px;
     font-weight: 100;
     text-transform: uppercase;
-    margin-top: 1.5rem;
+    margin-top: 10rem;
     margin-bottom: 1.5rem;
-    float: left;
+    text-align: center;
+    float: none;
+    margin-right: 30rem
+
 }
 .name a {
     margin-left: 3rem;
     color: rgb(241, 40, 40);
     text-decoration: none;
+    position:fixed;
+}
+.name :hover{
+    color: #116de6 !important;
+    font-weight: lighter;
 }
 .navbar {
     float: right;
@@ -39,21 +46,23 @@ body {
 }
 .navbar a{
     text-decoration: none;
-    color: white;
+    color: azure;
+    position: fixed
 }
 .navbar li{
+    font-size: 3rem;
     list-style-type: none;
     display: inline-block;
-    margin-left: 2rem;
+    margin-top: 15rem;
     letter-spacing: 5px;
-    margin-right: 2rem;
+    margin-right: 41rem;
 }
 .navbar a:hover {
     color: #116de6 !important;
     font-weight: bold;
 }
 /* HAMBURGER ICON */
-.navbar-btn{
+/* .navbar-btn{
     padding-inline-start: 1px !important;
     float: right;
     display: none;
@@ -65,17 +74,17 @@ body {
     margin: 0.5rem 0;
     border-radius: 1px;
     display: none;
-}
+} */
 /* HAMBURGER ICON */
 
 /*Javascript*/
-.hidehamburger{
+/* .hidehamburger{
     visibility: hidden;
 }
 .exit-img{
     background-image: url(/assets/images/exit.png);
     background-size: cover;
-}
+} */
 /* NAVBAR ENDS */
 
 .text {
@@ -92,23 +101,22 @@ body {
 @media screen and (max-width:840px) {
     
     .name{
-        font-size: 27px;
+        font-size: 35px;
         letter-spacing: 3px;
-        margin-left: -30px;
-        margin-top: 30px;
+        margin-left: 3.5rem;
+        margin-top: 100px;
         margin-bottom: -10px;
+        text-align: center;
     }
     
     .navbar li{
         margin-top: 5.5rem;
         margin-bottom: 5rem;
-        display: block;
     }
-    .ham_menu{
+    /* .ham_menu{
         display: block !important;
         color: aqua;
-
-    }
+    } */
     .navbar-btn{
         display: block;
         margin-top: -3.4rem;
@@ -119,8 +127,8 @@ body {
         width: 100%;
     }
     .full-navbar{
-        display: none;
         font: 2rem;
+        margin-top: 55rem;
     }
     .text{
         font-size: 20px;
