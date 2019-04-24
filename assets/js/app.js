@@ -1,13 +1,8 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
 
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - callback');
 });
-*/
+
 
 /* Otherwise just put the config content (json): */
 
@@ -55,7 +50,7 @@ particlesJS('particles-js',
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 40,
+          "speed": 600,
           "size_min": 0.1,
           "sync": false
         }
@@ -63,13 +58,13 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#ff0000",
         "opacity": 0.4,
-        "width": 1
+        "width": 2
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 5,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -102,14 +97,14 @@ particlesJS('particles-js',
           }
         },
         "bubble": {
-          "distance": 400,
-          "size": 40,
+          "distance": 100,
+          "size": 3,
           "duration": 2,
           "opacity": 8,
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 100
         },
         "push": {
           "particles_nb": 4
