@@ -3,7 +3,6 @@
 /* MIT license: http://opensource.org/licenses/MIT
 /* Demo / Generator : vincentgarreau.com/particles.js
 /* GitHub : github.com/VincentGarreau/particles.js
-/* How to use? : Check the GitHub README
 /* v2.0.0
 /* ----------------------------------------------- */
 
@@ -67,7 +66,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#fff',
+        color: '#f306a4',
         opacity: 1,
         width: 1
       },
