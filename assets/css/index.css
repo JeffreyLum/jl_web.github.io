@@ -84,7 +84,7 @@ body {
     .name{
         font-size: 35px;
         letter-spacing: 3px;
-        margin-left: 4rem;
+        margin-left: 3rem;
         margin-top: 11rem;
         margin-bottom: -10px;
         text-align: center;
@@ -92,14 +92,13 @@ body {
     
     .navbar li{
         font-size: 20px;
-        margin-top: -3rem;
+        margin-top: -4rem;
         margin-bottom: 5rem;
-        margin-left: 5rem;
+        margin-left: 8rem;
     }
     .navbar-btn{
         display: block;
         margin-top: -3.4rem;
-
     }
     .navbar{
         width: 100%;
