@@ -84,15 +84,17 @@ body {
     .name{
         font-size: 35px;
         letter-spacing: 3px;
-        margin-left: 3.5rem;
-        margin-top: 100px;
+        margin-left: 4rem;
+        margin-top: 11rem;
         margin-bottom: -10px;
         text-align: center;
     }
     
     .navbar li{
-        margin-top: 5.5rem;
+        font-size: 20px;
+        margin-top: -3rem;
         margin-bottom: 5rem;
+        margin-left: 5rem;
     }
     .navbar-btn{
         display: block;
@@ -100,12 +102,10 @@ body {
 
     }
     .navbar{
-        font-size: 1rem;
         width: 100%;
     }
     .full-navbar{
-        font: 2rem;
-        margin-top: 55rem;
+        font: 20px;
     }
     .text{
         font-size: 20px;
