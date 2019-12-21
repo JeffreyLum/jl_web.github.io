@@ -1,12 +1,13 @@
 
-body {
+
+body2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
     height: 100%;
     width: 100%;
     margin: 0px;
     margin-top: -10rem;
     text-decoration: none;
-    background-image: url(http://papers.co/wallpaper/papers.co-md65-star-dark-space-galaxy-36-3840x2400-4k-wallpaper.jpg);
+    background-color: black;
     background-size: 100%;
     
 
