@@ -5,7 +5,7 @@ body {
     width: 100%;
     margin: 0px;
     text-decoration: none;
-    background-image: url(https://wallpapercave.com/wp/RMdbmli.jpg);
+    background-image: url(/assets/images/Gradient\ Wallpaper\ 4K.jpg);
 }
 
 
@@ -30,10 +30,16 @@ body {
     color: rgb(241, 40, 40);
     text-decoration: none;
 }
+
+.TextUnderName {
+    font-size: 20px;
+    margin-left: -20px;
+
+}
 .navbar {
     float: right;
     margin-right: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     display: block !important;
 }
@@ -47,6 +53,8 @@ body {
     margin-left: 2rem;
     letter-spacing: 5px;
     margin-right: 2rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
 }
 .navbar a:hover {
     color: #116de6 !important;
@@ -89,7 +97,7 @@ body {
 }
 
 /* RESPONSIVE LAYER */
-@media screen and (max-width:840px) {
+@media screen and (max-width:1150px) {
     
     .name{
         font-size: 2rem;
@@ -98,6 +106,11 @@ body {
         margin-bottom: -10px;
     }
     
+    .TextUnderName {
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-left: 6px;
+    }
     .navbar li{
         margin-top: 5rem;
         margin-bottom: 5rem;
@@ -110,7 +123,7 @@ body {
     }
     .navbar-btn{
         display: block;
-        margin-top: -3.4rem;
+        margin-top: -68px;
     }
     .navbar{
         font-size: 1rem;
@@ -126,7 +139,7 @@ body {
     }
   }
   
-  @media screen and (min-width:840px) {
+  @media screen and (min-width:1155px) {
     .full-navbar{
                 font-size: 1rem;
 
