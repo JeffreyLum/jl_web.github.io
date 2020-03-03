@@ -1,71 +1,88 @@
 
-
-body2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+body {
+    font-family: 'Nunito Sans', sans-serif !important;
     height: 100%;
     width: 100%;
     margin: 0px;
-    margin-top: -10rem;
     text-decoration: none;
-    background-color: black;
-    background-size: 100%;
-    
-
+    background-image: url(/assets/images/Gradient\ Wallpaper\ 4K.jpg);
 }
 
-#particles-js {
-    height: 100%;
-    margin-top: 0rem;
 
-}
-.particles {
-    margin-top: -10rem;
-}
 /* NAVBAR STARTS */
-
+.container {
+    background-color: rgb(29, 29, 29);
+    display: table;
+    width: 100%;
+    position: fixed;
+}
 .name {
-    font-size: 5rem;
+    font-size: 3rem;
     letter-spacing: 5px;
     font-weight: 100;
     text-transform: uppercase;
-    margin-top: 10rem;
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    text-align: center;
-    float: none;
-    margin-right: 30rem
+    float: left;
 }
 .name a {
     margin-left: 3rem;
-    color: red;
+    color: rgb(241, 40, 40);
     text-decoration: none;
-    position:fixed;
 }
-.name :hover{
-    color: #d4e255 !important;
-    font-weight: lighter;
+
+.TextUnderName {
+    font-size: 20px;
+    margin-left: -20px;
+
 }
 .navbar {
     float: right;
-    margin-right: 3.5rem;
-    margin-top: 10rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     display: block !important;
 }
 .navbar a{
     text-decoration: none;
-    color: rgb(233, 220, 148);
-    position: fixed
+    color: white;
 }
 .navbar li{
-    font-size: 3rem;
     list-style-type: none;
     display: inline-block;
-    margin-top: 0rem;
+    margin-left: 2rem;
     letter-spacing: 5px;
-    margin-right: 41rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
 }
 .navbar a:hover {
-    color: #eb3700 !important;
+    color: #116de6 !important;
     font-weight: bold;
+}
+/* HAMBURGER ICON */
+.navbar-btn{
+    padding-inline-start: 1px !important;
+    float: right;
+    display: none;
+}
+.ham_menu {
+    width: 35px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5rem 0;
+    border-radius: 1px;
+    display: none;
+}
+/* HAMBURGER ICON */
+
+/*Javascript*/
+.hidehamburger{
+    visibility: hidden;
+}
+.exit-img{
+    background-image: url(/assets/images/exit.png);
+    background-size: cover;
 }
 /* NAVBAR ENDS */
 
@@ -80,32 +97,40 @@ body2 {
 }
 
 /* RESPONSIVE LAYER */
-@media screen and (max-width:840px) {
+@media screen and (max-width:1150px) {
     
     .name{
-        font-size: 35px;
-        letter-spacing: 3px;
-        margin-left: 3rem;
-        margin-top: 11rem;
+        font-size: 2rem;
+        margin-left: -30px;
+        margin-top: 30px;
         margin-bottom: -10px;
-        text-align: center;
     }
     
+    .TextUnderName {
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-left: 6px;
+    }
     .navbar li{
-        font-size: 20px;
-        margin-top: -4rem;
+        margin-top: 5rem;
         margin-bottom: 5rem;
-        margin-left: 8rem;
+        display: block;
+    }
+    .ham_menu{
+        display: block !important;
+        color: aqua;
+
     }
     .navbar-btn{
         display: block;
-        margin-top: -3.4rem;
+        margin-top: -68px;
     }
     .navbar{
+        font-size: 1rem;
         width: 100%;
     }
     .full-navbar{
-        font: 20px;
+        display: none;
     }
     .text{
         font-size: 20px;
@@ -114,7 +139,7 @@ body2 {
     }
   }
   
-  @media screen and (min-width:840px) {
+  @media screen and (min-width:1155px) {
     .full-navbar{
                 font-size: 1rem;
 
