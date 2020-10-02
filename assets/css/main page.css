@@ -38,6 +38,7 @@ body{
     /* https://www.w3schools.com/css/css_link.asp */
 #namelink{
     text-decoration: none;
+    color: bisque;
     
 }
 #namelink:visited {
