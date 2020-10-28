@@ -1,20 +1,22 @@
 
 body {
-    font-family: 'Nunito Sans', sans-serif !important;
+    /*gradient used from https://mycolor.space/gradient?ori=to+right+bottom&hex=%23051937&hex2=%23A8EB12&sub=1*/
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
     height: 100%;
     width: 100%;
-    margin: 0px;
-    text-decoration: none;
-    background-image: url(/assets/images/Gradient\ Wallpaper\ 4K.jpg);
+    margin: auto;
+
 }
 
 
 /* NAVBAR STARTS */
 .container {
     background-color: rgb(29, 29, 29);
+    font-family: 'Nunito Sans', sans-serif !important;
     display: table;
     width: 100%;
-    position: fixed;
+    position: relative;
 }
 .name {
     font-size: 3rem;
@@ -109,7 +111,8 @@ body {
     .TextUnderName {
         font-size: 15px;
         letter-spacing: 2px;
-        margin-left: 6px;
+        margin-left: -3px;
+        line-height: 25px;
     }
     .navbar li{
         margin-top: 5rem;
@@ -145,4 +148,12 @@ body {
 
         display: block !important;
     }
+
+ 
 }
+
+.post {
+
+    font-size: 5em;
+}
+
